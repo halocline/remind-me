@@ -1,6 +1,9 @@
 node_modules
 .cache/
+# next.js
 .next
+/out
+
 # Build directory
 public/
 static/admin/*.bundle.*
