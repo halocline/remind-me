@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9ef536bb-d938-48d5-9bdb-2e4cb442abdb/deploy-status)](https://app.netlify.com/sites/elated-lamport-9b1fbd/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ef536bb-d938-48d5-9bdb-2e4cb442abdb/deploy-status)](https://app.netlify.com/sites/reminders-for-me/deploys)
 
 # remind-me
 For all those infrequent but important tasks you want to keep up with (e.g. like fertilizing your lawn, watering your succulents, changing your water filter, and more).
