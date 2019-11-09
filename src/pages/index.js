@@ -1,9 +1,9 @@
+import React from 'react';
+
+import { AppLayout } from '../layouts';
+
 const Index = () => {
-  return (
-    <div>
-      <p>Hello Next.js</p>
-    </div>
-  );
+  return <AppLayout />;
 };
 
 export default Index;
