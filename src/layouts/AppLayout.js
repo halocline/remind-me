@@ -1,14 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Grommet } from 'grommet';
 
-import { Main } from '.';
+import { Header, Main } from '../components';
 
-const AppLayout = () => {
+const AppLayout = ({ children }) => {
   return (
     <Grommet>
-      <Main />
+      <Header />
+      <Main>{children}</Main>
     </Grommet>
   );
+};
+
+AppLayout.propTypes = {
+  children: PropTypes.oneOf([PropTypes.array, PropTypes.element]).isRequired,
 };
 
 export default AppLayout;

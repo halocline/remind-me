@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Box } from 'grommet';
 
-const Header = ({ children }) => {
+const Main = ({ children }) => {
   return <Box>{children}</Box>;
 };
 
-Header.propTypes = {
+Main.propTypes = {
   children: PropTypes.oneOf([PropTypes.array, PropTypes.element]).isRequired,
 };
 
-export default Header;
+export default Main;

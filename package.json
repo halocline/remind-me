@@ -9,6 +9,7 @@
     "grommet": "^2.7.11",
     "grommet-icons": "^4.3.0",
     "next": "^9.1.2",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.1"
@@ -28,7 +29,6 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^1.19.1",
-    "prop-types": "^15.7.2"
+    "prettier": "^1.19.1"
   }
 }

@@ -2,8 +2,8 @@ import React from 'react';
 
 import { AppLayout } from '../layouts';
 
-const Index = () => {
-  return <AppLayout />;
+const App = () => {
+  return <AppLayout>My Content</AppLayout>;
 };
 
-export default Index;
+export default App;
