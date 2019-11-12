@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { AppLayout } from '../layouts';
+import { ThreeJS } from '../components';
 
-const App = () => {
+const CubePage = () => {
   return (
     <AppLayout>
-      <div>My Content</div>
+      <ThreeJS />
     </AppLayout>
   );
 };
 
-export default App;
+export default CubePage;

@@ -3,7 +3,11 @@ import PropTypes from 'prop-types';
 import { Box } from 'grommet';
 
 const Main = ({ children }) => {
-  return <Box>{children}</Box>;
+  return (
+    <Box border="all" pad="large">
+      {children}
+    </Box>
+  );
 };
 
 Main.propTypes = {

@@ -2,13 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Grommet } from 'grommet';
 
-import { Header, Main } from '../components';
+import { Footer, Header, Main } from '../components';
+import theme from '../themes/theme';
+
+const MyThemeContext = React.createContext('dark');
 
 const AppLayout = ({ children }) => {
   return (
-    <Grommet>
-      <Header />
-      <Main>{children}</Main>
+    <Grommet theme={theme}>
+      <MyThemeContext.Provider>
+        <Header />
+        <Main>{children}</Main>
+        <Footer />
+      </MyThemeContext.Provider>
     </Grommet>
   );
 };

@@ -16,8 +16,8 @@ const Header = () => {
       </Box>
       <Box direction="row" align="center" fill gap="large" justify="end">
         <Box direction="row" gap="medium">
-          <a href="/">Link 1</a>
-          <a href="/">Link 2</a>
+          <a href="/cube">Cube</a>
+          <a href="/">Home</a>
         </Box>
         <Box direction="row" gap="medium">
           <Button label="click me" />
