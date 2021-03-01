@@ -13,7 +13,7 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.1",
-    "three": "^0.110.0"
+    "three": "^0.125.0"
   },
   "scripts": {
     "dev": "next",
